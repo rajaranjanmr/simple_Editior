@@ -3,6 +3,7 @@ import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 
+
 class notepad extends JFrame implements ActionListener
 {
 JMenuBar mb;
@@ -22,6 +23,7 @@ ta= new JTextArea();
 sp = new JScrollPane(ta);
 add(sp);
 ta.setFont(new Font("Arial", Font.BOLD, 20));
+
 
 mb=new JMenuBar();
 add(mb,BorderLayout.NORTH);
@@ -197,6 +199,7 @@ public static void main(String arg[]) throws Exception
 notepad n= new notepad();
 n.resize(500,400);
 n.setVisible(true);
+System.out.println("Done!!");
 }
 }
 
