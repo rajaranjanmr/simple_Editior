@@ -200,6 +200,7 @@ notepad n= new notepad();
 n.resize(500,400);
 n.setVisible(true);
 System.out.println("Done!!");
+System.out.println("Done!!!!!!!!!");
 }
 }
 
